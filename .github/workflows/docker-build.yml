@@ -21,7 +21,7 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: create epgstation meta
+      - name: create docker-crontab meta
         id: meta
         uses: docker/metadata-action@v5
         with:
