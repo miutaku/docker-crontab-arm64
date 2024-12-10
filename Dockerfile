@@ -1,4 +1,4 @@
-FROM tinslice/supervisord:1.1
+FROM ghcr.io/miutaku/docker-supervisord:latest
 
 RUN apk add --update --no-cache bash && \
     mkdir -p /opt/cron
